@@ -19,3 +19,8 @@ function my_test($a,$b){
 	}
 	return $a/$b;
 }
+
+
+function sum_total($a,$b){
+	return $a*$a + $b*$b;
+}
