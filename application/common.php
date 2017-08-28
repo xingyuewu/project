@@ -13,5 +13,9 @@
 
 
 function my_test($a,$b){
+	//求除法，除数不能为0
+	if($b == 0){
+		return false;
+	}
 	return $a/$b;
 }
