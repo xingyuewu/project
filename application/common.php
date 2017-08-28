@@ -20,6 +20,12 @@ function my_test($a,$b){
 	return $a/$b;
 }
 
+
 function test(){
 	echo '111';
+}
+
+function sum_total($a,$b){
+	return $a*$a + $b*$b;
+
 }
